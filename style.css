@@ -1,0 +1,66 @@
+/* BOX MODEL */
+/* 
+    border ✔
+    width => largura - horizontal ✔
+    height => altura - vertical ✔
+    padding => espaço interno do elemento ✔
+    margin => espaço entre os elementos ✔
+*/
+
+.primeira {
+    /* largura, estilo e cor */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: #f00; */
+
+    /* shorthand do border */
+    background-color: #a7f3d0;
+    border: 2px solid #065f46;
+    color: #065f46;
+    width: 300px;
+    height: 300px;
+
+    /* padding em todos os lados (shorthand) */
+    padding: 30px;
+
+    /* padding top e bottom / padding left e right */
+    /* padding: 20px 40px; */
+
+    /* top / left e right / bottom */
+    /* padding: 30px 50px 10px; */
+
+    /* top / right / bottom / left */
+    /* padding: 30px 50px 70px 90px; */
+
+    /* padding somente no lado esquerdo */
+    /* padding-left: 20px; */
+
+    /* padding somente no lado direito */
+    /* padding-right: 30px; */
+
+    /* padding dos dois lados ao mesmo tempo */
+    /* padding-inline: 30px; */
+
+    /* padding em cima */
+    /* padding-top: 30px; */
+
+    /* padding em baixo */
+    /* padding-bottom: 30px; */
+
+    /* padding em cima e em baixo */
+    /* padding-block: 30px; */
+
+    /* todas as propriedades acima também se aplicam ao MARGIN */
+    
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.segunda {
+    background-color: #d8b4fe;
+    color: #3b0764;
+    border: 2px solid #5b21b6;
+    width: 450px;
+    height: 220px;
+    padding: 15px;
+}
